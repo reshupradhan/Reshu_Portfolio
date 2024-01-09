@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.navbar-brand{
+    color: #e91e63 !important;
+    
+}
+
+.navbar-brand{
+    margin-left: 35px;
+    font-family: Papyrus;
+    font-size: 33px !important;
+   
+}
+.navbar-nav{
+    margin-right: 35px;
+}
+.nav-item{
+    margin-right: 20px;
+}
+
+section{
+    padding: 15%;
+    
+}
+.home{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.home-img{
+ 
+    margin-right: 6%;
+    height: 370px;
+    width: 400px;
+}
+.home-img img{
+    background-color: #e91e63;
+    margin-top:20px;
+    margin-left: 20px;
+    height: 95%;
+    width: 90%;
+    object-fit: cover;
+}
+.home-text p{
+    font-style: italic;
+    line-height: 40px;   
+}
+.home-text{
+    margin-left: 6%;
+    
+}
+.home-text h2{
+ font-size: 43px;
+  
+}
+button.btn{
+    margin-top: 6px;
+    background-color: #e91e63 !important; 
+}
+
+
+     
+#fulid{
+    background-color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 4px;
+}
+
+section{
+    padding: 80px 4% 
+    
+}  
+
+
+@media(max-width: 1075px){
+    .navbar-nav{
+        margin-right: -3px;
+    }
+    .nav-item{
+        margin-left: -5px;
+    }
+    .navbar-brand{
+        margin-left: 15px;
+    }   
+}
+
+
+@media(max-width: 929px){
+    .navbar-nav{
+        margin-right: -3px;
+    }
+    .nav-item{
+        margin-left: -15px;
+    }
+    .navbar-brand{
+        margin-left: 15px;
+    }
+    .home-img img{
+          
+        height: 80%;
+        width: 85%;
+        margin-left:23px;
+       
+               
+    }
+}
+    
+@media(max-width: 760px){
+   
+    .nav-item{
+        margin-left: -15px;
+        font-size: 15px;
+    }
+    .home-img img{
+          
+        height: 80%;
+        width: 90%;
+        margin-left:15px;             
+    }
+}
+@media(max-width: 695px){
+   
+    .nav-item{
+        margin-left: -17px;
+        font-size: 14px;
+    }
+    .navbar-brand{
+        font-size: 30px !important;
+    }
+     .home-img{
+          width: 470px;
+        }
+    .home-img img{
+          
+        height: 77%;
+        width: 90%;
+        margin-left:10px;             
+    }
+
+}
+@media(max-width: 587px){
+    .home-img{
+   
+            height: 340px;
+            width: 600px;
+        }
+        .home-img img{
+          
+            height: 85%;
+            width: 65%;
+            margin-left:80px;             
+        }
+        
+    }
+
+@media(max-width: 450px){
+        .home-img{
+  
+            height: 300px;
+            width: 400px;
+        }
+        .home-img img{
+            
+            margin-left:60px;
+          
+                   
+        }
+
+}
+@media(max-width: 365px){
+   
+    .home-img img{
+        
+      width: 75%;
+      height:80% ;
+      margin-left:35px ;
+               
+    }
+
+}
+@media(max-width: 275px){
+    .home-img{
+        padding-top:4px ;
+    }
+   
+    .home-img img{
+        
+      width: 90%;
+      height:80% ;
+      margin-left:15px ;
+      
+               
+    }
+}
+
+@media(max-width: 588px){
+    
+       .home{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap-reverse;
+       
+       }
+       
+}
+    
+        
+
+
+
+
+/*contact css*/
+#contact .col-12{
+   padding:3%;
+   padding-bottom: 7%;
+   padding-top: 5%;
+}
+
+#contact .col-sm{
+    
+    color: white;
+    text-align: center;
+    margin-top: 60px;  
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#contact h2{
+   text-align: center;
+    color: aliceblue;
+    margin-top: 35px;
+}
+#contact .card{
+   
+    padding: 22px;
+    background-color: #e91e63;
+    box-shadow: 2px 2px 10px rgb(214, 176, 176);
+}
+ 
+
+ #My_Education{
+    padding: 118px 80px 60px 80px;
+    background-color: #e91e63;
+    
+}
+#My_Education h2{
+    text-align: center;
+    
+    margin-top: -30px;
+    margin-bottom: 35px;
+
+}
+#My_Education .col-md{
+    padding: 20px 60px ;
+    
+    
+}
+#My_Education .card{
+   border-radius: 10%;
+   padding: 22px;
+   box-shadow: 2px 2px 10px black;
+
+   
+}
+#Skills .container{
+    padding-left:20%;
+    padding-right: 20%;
+}
+#Skills ul{
+    
+    text-align: center;
+    list-style: none;
+    padding: 50px ;
+    padding-top: 20px;
+}
+#Skills li{
+    
+    background-color: #e91e63;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 30px;
+    
+    border-radius:50% ;
+    border-radius:50% ;
+}
+#Skills h2{
+    margin-top: 90px;
+    text-align: center;
+    color:white;
+}
+#Skills{
+    
+    padding: 20px;
+}
+
+@media(max-width: 767px){
+    #Skills ul{
+        margin: -60px;
+        padding-top: -10px;
+       
+
+    }
+    #Skills ul{
+        margin-top: 10px;
+    }
+}
+@media(max-width: 990px){
+    #Skills ul{
+        margin: -60px;
+        padding-top: -10px;
+       
+
+    }
+    #Skills ul{
+        margin-top: 10px;
+    }
+}
+    
+
